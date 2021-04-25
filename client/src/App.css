@@ -1,0 +1,36 @@
+*{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  background-color: white;
+  color: #053863;
+
+}
+ul{
+  list-style: none;
+}
+.jar-image{
+  max-width: 50%;
+}
+.jar-item{
+  display: flex;
+}
+.jarsummary{
+  border-color: white !important;
+  border-style: outset !important;
+}
+.jar-data-category {
+  font-size: 10px;
+}
+
+.delete-icon {
+  display: none;
+  position: absolute;
+  right: 6px;
+}
+
+.jar:hover .delete-icon {
+  display: block;
+}
